@@ -16,4 +16,5 @@ resource "aws_instance" "myinstance" {
   ami = module.vpc.ami_id
   instance_type = "t3.micro"
   subnet_id =module.vpc.subnet_id
+
 }
